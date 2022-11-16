@@ -1,10 +1,10 @@
 /* @import will import a font-family from google */
-@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis+Regular&family=Space+Mono&display=swap');
 
-.navBG{
-    background: #000324 0% 0% no-repeat padding-box;
+.colorplease{
+    background: #000324 no-repeat padding-box;
     opacity: 1;
-}
+}        
 .rightNav{
 
 }
