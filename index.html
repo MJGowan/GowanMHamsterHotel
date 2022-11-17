@@ -4,50 +4,111 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>La Petite Maison</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link src="./styles.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body>
-    <div class="container colorplease"  style="background-color:#000324">
-        <div class="row">
-            <div class="col-12">
+<body class="bg">
+    <div class="container-fluid large">
 
-                <nav class="navbar sticky-top">
-                    <div class="container-fluid">
-                            <a class="nav-item leftNav">
-                                <a class="nav-link" href="#">Overview</a>
-                            </a>
-                            <a class="nav-item leftNav">
-                                <a class="nav-link" href="#">Rooms</a>
-                            </a>
-                            <a class="nav-item leftNav">
-                                <a class="nav-link" href="#">Packages</a>
-                            </a>
+        <nav class="navbar sticky-sm-top" style="background-color:#000324">
+            <div class="container-fluid justify-content-center">
+                <a class="nav-item itemLeft">
+                    <a class="nav-link" href="#">Overview</a>
+                </a>
+                <a class="nav-item itemLeft">
+                    <a class="nav-link" href="#">Rooms</a>
+                </a>
+                <a class="nav-item itemLeft">
+                    <a class="nav-link" href="#">Packages</a>
+                </a>
+                <img src="Assets/Logo.png" class="img-fluid">
 
-                            <img src="Assets/Logo.png">
+                <a class="nav-item itemRight">
+                    <a class="nav-link" href="#">Amenities</a>
+                </a>
+                <a class="nav-item itemRight">
+                    <a class="nav-link" href="#">Contact</a>
+                </a>
+                <a class="nav-item itemRight">
+                    <a class="nav-link" href="#">Reserve</a>
+                </a>
+            </div>
+        </nav>
 
-                            <a class="nav-item rightNav">
-                                <a class="nav-link" href="#">Amenities</a>
-                            </a>
-                            <a class="nav-item rightNav">
-                                <a class="nav-link" href="#">Contact</a>
-                            </a>
-                            <a class="nav-item rightNav reserve">
-                                <a class="nav-link" href="#">Reserve</a>
-                            </a>
+
+        <div class="container-fluid">
+            <div class="row">
+                <img src="Assets/headerCropped.jpg" class="img-fluid headerimg" alt="...">
+                <div class="col-3"></div>
+                <div class="col-6 introBox introText">
+                    <h1>Run on the wheel of luxury</h1>
+                    <h6>Explore everything the beach has to offer in our relaxing resort.</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4">
+                    <img src="Assets/hamsterhomejpg.jpg" class="hamhome" alt="...">
+                </div>
+                <div class="col-6">
+                    <h3 class="paradiseTitle">Welcome to a hamster's paradise</h3>
+                    <h6 class="paradiseText">Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel designed for the
+                        small mammal with extravagance in mind. Escape to the warm comforts of stunning rooms, a
+                        relaxing spa, and a pool with a beach side view.</h6>
+                    <h6 class="paradiseText">Inspired by the warm beauty of the California Coast, we invite you to enjoy the rich
+                        accomodations along with our unmatched luxury. Discover the satisfaction of indulging in our
+                        quality rooms, and thank you for choosing La Petite Maison.</h6>
+
+                    <img src="Assets/awardfinest.png" class="award">
+                    <img src="Assets/awardsatisfaction.png" class="award">
+                    <img src="Assets/awardgenuine.png" class="award">
+
+                </div>
+            </div>
+            <div class="row">
+                <img src="Assets/bg2.2.jpg" class="img-fluid imgbg2" alt="...">
+                <h3 class="ourroomstext">Our Rooms</h3>
+                <div class="card-group">
+                    <div class="card">
+                        <img src="Assets/room1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
                     </div>
-                </nav>
+                    <div class="card">
+                        <img src="Assets/room2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/room3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
-
+            <div class="row">
 
             </div>
         </div>
-    </div>
 
+
+    </div>
 </body>
 
 </html>

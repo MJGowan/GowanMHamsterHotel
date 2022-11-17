@@ -1,17 +1,83 @@
-/* @import will import a font-family from google */
-@import url('https://fonts.googleapis.com/css2?family=Dosis+Regular&family=Space+Mono&display=swap');
+@font-face {
+    font-family: Dosis-Regular;
+    src: url("Assets/Dosis/static/Dosis-Regular.ttf") ;
+}
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url("Assets/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+}
 
-.colorplease{
-    background: #000324 no-repeat padding-box;
+.bg{
+    background-color: white;
+}
+
+.introBox{
+    position:absolute;
+    justify-content:center;
+    background-color:#000324;
+    opacity:0.8;
+}
+
+.introText{
+    font-family:Dosis-Regular;
+    color:#E5FEFF;
+    text-align:center;
+}
+
+.headerimg{
     opacity: 1;
-}        
-.rightNav{
-
-}
-.leftNav{
-
+    width: 100%;
 }
 
+.nav-link{
+    font-family:Dosis-Regular;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size:medium;
+    padding: 10px;
+}
+
+.hamhome{
+    max-width: 200px;
+    float:right;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.paradiseTitle{
+    font-family:Dosis-Regular;
+    padding-top:20px;
+}
+
+.paradiseText{
+    font-family:SourceSansPro-Regular;
+}
+
+.award{
+    max-height:120px;
+    padding-left:50px;
+}
+
+.imgbg2{
+    opacity:1;
+    width:100%;
+}
+
+.ourroomstext{
+    font-family:Dosis-Regular;
+    position:absolute;
+    color:#FFFFFF;
+    text-align:center;
+}
+
+.card-group{
+    position:absolute;
+    max-width:65%;
+    align-self: center;
+    text-align:center;
+    font-family:Dosis-Regular;
+}
 
 /* -------------------------------- THIS IS CSS FROM WICKED CSS! ----------------------------- */
 
