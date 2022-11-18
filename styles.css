@@ -12,6 +12,8 @@
     background-color: white;
 }
 
+/*------------- THIS IS FOR LG+ -------------*/
+
 .introBox {
     position: absolute;
     justify-content: center;
@@ -246,6 +248,305 @@
     text-align:center;
     font-size:small;
 }
+
+
+/*------------- THIS IS FOR MD --------------*/
+
+.introBoxTAB {
+    position: absolute;
+    justify-content: center;
+    background-color: #000324;
+    opacity: 0.8;
+    padding:40px;
+    margin-top:20px;
+    margin-left:25%;
+}
+
+.introTextTAB {
+    font-family: Dosis-Regular;
+    color: #E5FEFF;
+    text-align: center;
+}
+
+.paradiseTextTAB {
+    font-family: SourceSansPro-Regular;
+    color: #1A1B26;
+    font-size:small;
+}
+
+.awardTAB {
+    max-height: 90px;
+    padding-left: 20px;
+    padding-top:10px;
+}
+.imgbg2TAB {
+    opacity: 1;
+    width: 100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    height:450px;
+}
+
+.ourroomstextTAB {
+    font-family: Dosis-Regular;
+    position: absolute;
+    color: #FFFFFF;
+    text-align: center;
+    padding:20px;
+}
+
+.groupTAB {
+    position: absolute;
+    max-width: 90%;
+    margin-top:60px;
+    margin-left:3%;
+}
+
+.card-titleTAB {
+    font-family: Dosis-Regular;
+    color: #1A1B26;
+    font-size: small;
+}
+
+.card-textTAB {
+    font-family: SourceSansPro-Regular;
+    color: #1A1B26;
+    font-weight: bold;
+    font-size: x-small;
+}
+
+.card-listTAB {
+    font-family: SourceSansPro-Regular;
+    color: #1A1B26;
+    font-size: xx-small;
+}
+
+
+.packagesTAB {
+    font-family: Dosis-Regular;
+    color: #1A1B26;
+    text-align: center;
+}
+
+.packImgLeftTAB {
+    max-height: 300px;
+    align-items: flex-end;
+}
+
+.packImgRightTAB {
+    max-height: 300px;
+}
+
+.packTitleTAB {
+    font-family: Dosis-Regular;
+    color: #1A1B26;
+    font-size: small;
+}
+
+.packLinkTAB {
+    font-family: SourceSansPro-Regular;
+    color: #1F51A8;
+    font-size: x-small;
+}
+
+.packTextTAB {
+    font-family: SourceSansPro-Regular;
+    color: #1A1B26;
+    font-size: xx-small;
+}
+.containerAmenTAB{
+    margin:20px;
+    justify-content: center;
+    background: url("Assets/bg1.2.jpg");
+    height:300px;
+}
+
+.labelTextTAB{
+    font-family:SourceSansPro-Regular;
+    text-align:center;
+    font-weight:bold;
+    color:#FFFFFF;
+    font-size:small;
+}
+
+.reserveimgTAB{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:616px;
+}
+.fixthisimgTAB {
+    max-height:200px;
+    justify-content:center;
+    padding-top:130px;
+}
+
+
+/*--------------- THIS IS FOR SMALL --------------*/
+
+.logoSM{
+    max-width:90px;
+    justify-content:center;
+}
+.linkSM{
+    font-size: x-small;
+}
+.headerimgSM{
+    height:200px;
+}
+.introBoxSM {
+    position: absolute;
+    justify-content: center;
+    background-color: #000324;
+    opacity: 0.8;
+    padding:10px;
+    margin-top:20px;
+    margin-left:18%;
+}
+
+.introTextSM {
+    font-family: Dosis-Regular;
+    color: #E5FEFF;
+    text-align: center;
+}
+.hamhomeSM {
+    max-width: 100px;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.paradiseTitleSM {
+    font-family: Dosis-Regular;
+    color: #1A1B26;
+    padding-top: 20px;
+    font-size:small;
+}
+
+.paradiseTextSM {
+    font-family: SourceSansPro-Regular;
+    color: #1A1B26;
+    font-size:x-small;
+}
+
+.awardSM {
+    max-width:80px;
+    margin-left:10px;
+}
+.imgbg2SM {
+    opacity: 1;
+    width: 100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    height:1100px;
+}
+
+.ourroomstextSM {
+    font-family: Dosis-Regular;
+    position: absolute;
+    color: #FFFFFF;
+    text-align: center;
+    padding:20px;
+    font-size:medium;
+}
+
+.groupSM {
+    position: absolute;
+    max-width: 60%;
+    margin-top:50px;
+    margin-left:80px;
+}
+
+.card-titleSM {
+    font-family: Dosis-Regular;
+    color: #1A1B26;
+    font-size: small;
+}
+
+.card-textSM {
+    font-family: SourceSansPro-Regular;
+    color: #1A1B26;
+    font-weight: bold;
+    font-size: x-small;
+}
+
+.card-listSM {
+    font-family: SourceSansPro-Regular;
+    color: #1A1B26;
+    font-size: xx-small;
+}
+
+
+.packagesSM {
+    font-family: Dosis-Regular;
+    color: #1A1B26;
+    text-align: center;
+}
+
+.packImgLeftSM {
+    max-height: 500px;
+    align-items: flex-end;
+    padding-bottom:40px;
+    padding-top:10px;
+}
+
+.packImgRightSM {
+    padding-top:10px;
+    padding-bottom:50px;
+    max-height: 500px;
+}
+
+.packTitleSM {
+    font-family: Dosis-Regular;
+    color: #1A1B26;
+    font-size: small;
+}
+
+.packLinkSM {
+    font-family: SourceSansPro-Regular;
+    color: #1F51A8;
+    font-size: x-small;
+}
+
+.packTextSM {
+    font-family: SourceSansPro-Regular;
+    color: #1A1B26;
+    font-size: xx-small;
+}
+.containerAmenSM{
+    margin:20px;
+    justify-content: center;
+    background: url("Assets/bg1.2.jpg");
+    height:300px;
+}
+
+.labelTextSM{
+    font-family:SourceSansPro-Regular;
+    text-align:center;
+    font-weight:bold;
+    color:#FFFFFF;
+    font-size:small;
+}
+
+.reserveimgSM{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:401px;
+}
+.fixthisimgSM {
+    max-height:180px;
+    justify-content:center;
+    padding-top:120px;
+}
+
+.btnReserveSM {
+    background-color: #004CC7;
+    border-color: #004CC7;
+    color: #FFFFFF;
+    font-family: SourceSansPro-Regular;
+    font-weight: bold;
+    font-size: xx-small;
+}
+
 
 /* -------------------------------- THIS IS CSS FROM WICKED CSS! ----------------------------- */
 
